@@ -1,0 +1,10 @@
+.radiogroup{
+    width: 50%;
+    margin: 10px 0 0;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    border: 1px gray solid;
+    background: aliceblue;
+}

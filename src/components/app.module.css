@@ -1,0 +1,32 @@
+.app {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: linear-gradient(315deg, rgb(152, 207, 195) 4%, rgb(86, 181, 184) 34%);
+}
+
+.form {
+    width: 50%;
+
+    display: flex;
+}
+
+.task_list{
+    width: 50%;
+    padding: 0;
+    margin: 10px 0 0;
+
+    list-style-type: none;
+    background: aliceblue;
+}
+
+li{
+    min-height: 30px;
+    border: 1px gray solid;
+
+    display: flex;
+    align-items: center;
+}
