@@ -1,4 +1,6 @@
 .app {
+    box-sizing: border-box;
+
     height: 100vh;
 
     display: flex;
@@ -29,4 +31,13 @@ li{
 
     display: flex;
     align-items: center;
+}
+
+.deleteBtn{
+    width: 15%;
+    padding: 0;
+    margin-left: 2%;
+
+    color: #e72525;
+    border: 1px #9b2c2c solid;
 }
